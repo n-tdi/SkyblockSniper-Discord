@@ -1,5 +1,6 @@
 # SkyblockSniper-Discord
-a simple skyblock sniper in python with discord webhook intergration
+
+This is a bin to bin auction flipper for Hypixel Skyblock. its very efficient and very helpful for all players!
 
 # How to use:
 
