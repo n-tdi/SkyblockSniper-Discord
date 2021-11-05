@@ -128,7 +128,7 @@ def main():
             myfavoriteperson = 'https://discord.com/api/webhooks/aWebhookUrl'
             myfriend3 = 'https://discord.com/api/webhooks/aWebhookUrl'
 
-            if result[1] - result[0][2] >= 100000:
+            if result[1] - result[0][2] >= profit:
                 for x in [myself, myfavoriteperson, myfriend3]:
                     hook = Webhook(x)
                     profit = result[1] - result[0][2] 
