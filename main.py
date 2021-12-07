@@ -131,9 +131,9 @@ def main():
             if result[1] - result[0][2] >= profit:
                 for x in [myself, myfavoriteperson, myfriend3]:
                     hook = Webhook(x)
-                    profit = result[1] - result[0][2] 
+                    profitz = result[1] - result[0][2] 
                     embed = Embed(
-                        description="Item Name: " + str(result[0][1]) + "\nItem price: {:,}".format(result[0][2]) + "\nSecond lowest BIN: {:,}".format(result[1]) + "\nProfit: {:,}".format(profit) + "\nAuction UUID: " + str(result[0][0]),
+                        description="Item Name: " + str(result[0][1]) + "\nItem price: {:,}".format(result[0][2]) + "\nSecond lowest BIN: {:,}".format(result[1]) + "\nProfit: {:,}".format(profitz) + "\nAuction UUID: " + str(result[0][0]),
                         color=0x5CDBF0,
                         timestamp='now'  # sets the timestamp to current time
                     )
